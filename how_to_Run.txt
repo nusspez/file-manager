@@ -1,0 +1,20 @@
+abrir una terminal donde se encuentra este archivo
+$ source env/bin/activate
+$ pip install -r requirements.txt
+$ cd backend
+$ python manage.py runserver
+abrir otra terminal en demo/backend
+$ cd frontend 
+$ npm install 
+$ npm run dev 
+
+ir a la direccion http://127.0.0.1:8080/files
+
+aqui se encontraran los archivos listados
+
+al dar click en el boton color verde se redireccionara al archivo 1 
+esste es un demo lamentablemente no lo pude acabar como me gustaria, para acceder a otro archivo entra en
+http://127.0.0.1:8080/files/edit/3
+
+
+saludos c:
